@@ -38,3 +38,16 @@ alt+shift
 ctrl+a
     find action
         permite usar todos os recursos da ide com apenas um comando
+
+--------------------------Aula02- Navegando e refatorando o código----------------------------------------------------
+Navegando entre tabs
+    alt+setas
+        navega entre as tabs
+    Configurando atalho
+
+    ctrl+f4
+        fecha a tab atual
+    alt+shift+x
+        fecha todas as tabs
+
+Refatorando uma classe
