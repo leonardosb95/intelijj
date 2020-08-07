@@ -1,0 +1,34 @@
+-----------------Aula 01 Primeiros passos com a IDE-----------------
+
+.idea
+    Aonde fica as configurações do Intelijj
+
+psvm+tab
+    criar o metodo main na classe
+
+keymaps
+    aonde fica todos os comandos do eclipse
+
+    key maps reference
+        arquivo pdf aonde você pode visualizar todos os atalhos do Intelijj
+
+ctrl+n
+    busca as classes dentro do projeto
+
+alt+insert
+	gera o getter and setters+tostring()
+
+ctrl+n
+	navega entre as classes do java
+alt+1
+	volta para o pacote do projeto
+f6
+	move a classe para o package
+
+*****Conhecendo o find action***
+
+ctrl+y
+    deleta a linha ou o que o cursor está selecionando
+
+ctrl+d
+    duplica a linha selecionada
