@@ -16,20 +16,37 @@ public class Pagamento {
         this.data=LocalDate.now();
     }
 
+
     public String getDescricao() {
         return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public Tipo getTipo() {
         return tipo;
     }
 
+    public void setTipo(Tipo tipo) {
+        this.tipo = tipo;
+    }
+
     public double getValor() {
         return valor;
     }
 
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
     public LocalDate getData() {
         return data;
+    }
+
+    public void setData(LocalDate data) {
+        this.data = data;
     }
 
     @Override
