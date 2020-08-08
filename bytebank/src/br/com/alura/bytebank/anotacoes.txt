@@ -11,6 +11,8 @@ keymaps
 
     key maps reference
         arquivo pdf aonde você pode visualizar todos os atalhos do Intelijj
+ctrol+b
+    podemos acessar o metodo
 
 ctrl+n
     busca as classes dentro do projeto
@@ -40,6 +42,7 @@ ctrl+a
         permite usar todos os recursos da ide com apenas um comando
 
 --------------------------Aula02- Navegando e refatorando o código----------------------------------------------------
+
 Navegando entre tabs
     alt+setas
         navega entre as tabs
@@ -51,3 +54,56 @@ Navegando entre tabs
         fecha todas as tabs
 
 Refatorando uma classe
+    Deixar a classe mais facil de ler sem repetição
+    F5
+        refatora uma classe
+    ctrl+alt+L
+        identa a classe
+    shift+F6
+        renomear algo em todos os cantos
+
+    ctrl+alt+m
+        pega um trecho do código e monta outro metodo
+        deixando o código mais organizado
+
+
+--------------------------Aula03-Realizando busca dentro do projeto-----------------------------------------------------
+Search Everywhere
+    buscar qualquer arquivo dentro do projeto
+    shift,shift
+        ctrl+e
+            recent files
+         ctrl+n
+            para classes
+         buscar arquivo dentro de um diretorio
+            recursos/nome do arquivo
+
+Buscando dentro do código
+    ctrl+f12
+        permite verificar a estrutura da classe
+     alt+home
+        navegamos pelo navigation bar
+        utilizando as teclas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
