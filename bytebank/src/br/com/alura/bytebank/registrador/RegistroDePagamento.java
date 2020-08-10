@@ -1,5 +1,6 @@
-package br.com.alura.bytebank.model;
+package br.com.alura.bytebank.registrador;
 
+import br.com.alura.bytebank.model.Pagamento;
 import br.com.alura.bytebank.servico.ServicoPagamento;
 import br.com.alura.bytebank.validador.ValidaPagamento;
 

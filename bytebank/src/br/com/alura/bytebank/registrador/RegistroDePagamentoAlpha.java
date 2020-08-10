@@ -1,7 +1,6 @@
 package br.com.alura.bytebank.registrador;
 
 import br.com.alura.bytebank.model.Pagamento;
-import br.com.alura.bytebank.model.RegistroDePagamento;
 import br.com.alura.bytebank.model.Tipo;
 
 import java.util.Arrays;

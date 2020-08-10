@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96d3c809-08d7-4864-a7d4-516b27ae88a1" name="Default" comment="Aula 04 finalizada">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/servico/ServicoPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/validador/ValidaPagamento.java" afterDir="false" />
+    <list default="true" id="96d3c809-08d7-4864-a7d4-516b27ae88a1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/recursos/pagamentos-abril.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursos/pagamentos-maio.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/io/LeitorPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/visualizador/OpcoesPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto/.idea/projeto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/anotacoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/anotacoes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/model/RegistroDePagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/model/RegistroDePagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/model/RegistroDePagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/registrador/RegistroDePagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/registrador/RegistroDePagamentoAlpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/registrador/RegistroDePagamentoAlpha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/servico/ServicoPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/servico/ServicoPagamento.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="RegistroDePagamento.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/model/RegistroDePagamento.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/registrador/RegistroDePagamento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,10 +42,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +49,8 @@
       <file leaf-file-name="ValidaPagamento.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/validador/ValidaPagamento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -55,8 +58,8 @@
       <file leaf-file-name="anotacoes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/anotacoes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -98,14 +101,16 @@
         <option value="$PROJECT_DIR$/src/br/com/alura/bytebank/servico/ServicoPagamento.java" />
         <option value="$PROJECT_DIR$/src/br/com/alura/bytebank/model/RegistroDePagamento.java" />
         <option value="$PROJECT_DIR$/src/br/com/alura/bytebank/validador/ValidaPagamento.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/bytebank/visualizador/OpcoesPagamento.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/bytebank/io/LeitorPagamento.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1678" />
-    <option name="y" value="164" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-95" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,6 +133,11 @@
             <path>
               <item name="bytebank" type="b2602c69:ProjectViewProjectNode" />
               <item name="bytebank" type="462c0819:PsiDirectoryNode" />
+              <item name="recursos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bytebank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bytebank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -168,27 +178,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="alura" type="462c0819:PsiDirectoryNode" />
               <item name="bytebank" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="alura" type="462c0819:PsiDirectoryNode" />
-              <item name="bytebank" type="462c0819:PsiDirectoryNode" />
-              <item name="registrador" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bytebank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytebank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="alura" type="462c0819:PsiDirectoryNode" />
-              <item name="bytebank" type="462c0819:PsiDirectoryNode" />
-              <item name="servico" type="462c0819:PsiDirectoryNode" />
+              <item name="visualizador" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,11 +189,16 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="principa&#9;FILE&#9;file://C:/workspace/Intelijj/bytebank/src/br/com/alura/bytebank/Principal.java" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projeto" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.alura.bytebank.registrador" />
       <recent name="br.com.alura.bytebank" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\Intelijj\bytebank\recursos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.alura.bytebank.registrador" />
@@ -322,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596890619447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Aula 04 finalizada">
+      <created>1597063610351</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597063610351</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -331,19 +333,17 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32837406" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943678" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17708333" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32837406" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17708333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -355,6 +355,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32837406" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32837406" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -369,6 +371,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="Aula 04 finalizada" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/registrador/RegistroDePagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/servico/ServicoPagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/anotacoes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/validador/ValidaPagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -379,7 +412,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/model/RegistroDePagamento.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/registrador/RegistroDePagamento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
@@ -406,7 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/model/RegistroDePagamento.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/registrador/RegistroDePagamento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
@@ -536,17 +569,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/anotacoes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        <state relative-caret-position="1292">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -560,20 +589,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/model/RegistroDePagamento.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/registrador/RegistroDePagamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/io/LeitorPagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/visualizador/OpcoesPagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursos/pagamentos-abril.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/alura/bytebank/validador/ValidaPagamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="323">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
     </entry>

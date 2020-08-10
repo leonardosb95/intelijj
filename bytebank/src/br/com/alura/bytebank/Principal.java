@@ -1,11 +1,9 @@
 package br.com.alura.bytebank;
 
-import br.com.alura.bytebank.model.Funcionario;
 import br.com.alura.bytebank.model.Pagamento;
-import br.com.alura.bytebank.model.RegistroDePagamento;
+import br.com.alura.bytebank.registrador.RegistroDePagamento;
 import br.com.alura.bytebank.model.Tipo;
 
-import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
 
