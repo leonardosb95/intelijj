@@ -84,9 +84,15 @@ Buscando dentro do código
      alt+home
         navegamos pelo navigation bar
         utilizando as teclas
-
-
-
+--------------------------Aula04-Avançando na refatoração de código-----------------------------------------------------
+Usando o delegate
+    permite delegar um comportamento
+    para uma classe especifica
+    ctrl+shift+alt+T
+        delegate
+        Ele cria um pacote, classe do metodo que deseja refatorar
+     alt+f7
+        Conseguimos ver aonde determinada classe esá sendo usada
 
 
 
