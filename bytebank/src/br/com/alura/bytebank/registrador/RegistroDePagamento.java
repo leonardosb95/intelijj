@@ -10,12 +10,12 @@ import java.util.List;
 
 public class RegistroDePagamento {
     private final static List<Pagamento> PAGAMENTOS = new ArrayList<>();
-    private ServicoPagamento servico= new ServicoPagamento();
 
 
     public void registra(List<Pagamento> pagamentos) {
-        servico.registra(pagamentos);
-        exibeEfetuados();
+        for (Pagamento pagamento : pagamentos) {
+            salva(pagamento);
+        }
     }
 
     public void exibeEfetuados() {
@@ -28,7 +28,6 @@ public class RegistroDePagamento {
             System.out.println("Não temos pagamentos");
         }
     }
-
 
 
     private void salva(Pagamento pagamento) {

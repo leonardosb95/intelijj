@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ServicoPagamento {
 
-    RegistroDePagamento registro= new RegistroDePagamento();
+    private RegistroDePagamento registro = new RegistroDePagamento();
 
 
     public void registra(List<Pagamento> pagamentos) {
@@ -20,10 +20,6 @@ public class ServicoPagamento {
     public void exibeEfetuados() {
         registro.exibeEfetuados();
     }
-
-
-
-
 
 
 }

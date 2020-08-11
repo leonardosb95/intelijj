@@ -93,6 +93,22 @@ Usando o delegate
         Ele cria um pacote, classe do metodo que deseja refatorar
      alt+f7
         Conseguimos ver aonde determinada classe esá sendo usada
+      ctrl+shift+F6
+        Da um rename trocando o tipo em todo projeto
+
+Extraindo classes e interfaces
+     ctrl+shift+alt+T
+        criamos interface para que outras classes possam implementar
+
+Encapsulando campos
+    Encapsulate fields
+        permite pegar todos os campos de uma classe
+        fazer o encapsulamento
+
+     pull members
+        move os atributos para a classe que você determinar
+         Push members down
+            faz o processo ao contrario
 
 
 

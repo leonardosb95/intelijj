@@ -1,7 +1,8 @@
 package br.com.alura.bytebank.visualizador;
-import br.com.alura.bytebank.io.LeitorPagamento;
+
+import br.com.alura.bytebank.io.LeitorCSV;
 import br.com.alura.bytebank.model.Pagamento;
-import br.com.alura.bytebank.registrador.RegistroDePagamento;
+import br.com.alura.bytebank.servico.ServicoPagamento;
 
 import java.io.IOException;
 import java.nio.file.NoSuchFileException;
@@ -22,17 +23,15 @@ public class OpcoesPagamento {
         System.out.println("Informe o código do arquivo que deseja registrar os pagamentos:");
 
 
-        LeitorPagamento leitor = new LeitorPagamento();
+        LeitorCSV leitor = new LeitorCSV();
 
         apresentaArquivosDisponiveis(leitor);
-
-
         try {
             int codigoDoArquivo = pedeCodigo();
-
+            System.out.println("######## codigo do arquivo: "+codigoDoArquivo);
             List<Pagamento> pagamentos = leitor.ler(codigoDoArquivo);
-            RegistroDePagamento registro = new RegistroDePagamento();
-            registro.registra(pagamentos);
+            ServicoPagamento servico = new ServicoPagamento();
+            servico.registra(pagamentos);
         } catch (NoSuchFileException | NoSuchElementException e) {
             System.out.println("Arquivo não encontrado");
         } catch (IOException | NullPointerException e) {
@@ -40,7 +39,7 @@ public class OpcoesPagamento {
         }
     }
 
-    private void apresentaArquivosDisponiveis(LeitorPagamento leitor) {
+    private void apresentaArquivosDisponiveis(LeitorCSV leitor) {
         try {
             Iterator<Path> lista = leitor.lista();
             int i = 1;

@@ -7,6 +7,8 @@ public class Funcionario {
     private String nome;
     private int matricula;
     private LocalDate dataNascimento;
+    private String usuario;
+    private String senha;
 
 
     public Funcionario(String nome, int matricula, LocalDate dataNascimento) {
@@ -41,6 +43,22 @@ public class Funcionario {
         this.dataNascimento = dataNascimento;
     }
 
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
     @Override
     public String toString() {
         return "Funcionario{" +
