@@ -85,6 +85,7 @@ Buscando dentro do código
         navegamos pelo navigation bar
         utilizando as teclas
 --------------------------Aula04-Avançando na refatoração de código-----------------------------------------------------
+
 Usando o delegate
     permite delegar um comportamento
     para uma classe especifica
@@ -96,8 +97,33 @@ Usando o delegate
       ctrl+shift+F6
         Da um rename trocando o tipo em todo projeto
 
+Extraindo classes e interfaces
+     ctrl+shift+alt+T
+        criamos interface para que outras classes possam implementar
 
+Encapsulando campos
+    Encapsulate fields
+        permite pegar todos os campos de uma classe
+        fazer o encapsulamento
 
+     pull members
+        move os atributos para a classe que você determinar
+         Push members down
+            faz o processo ao contrario
+
+--------------------------Aula05-Testando e debugando o projeto---------------------------------------------------------
+teste de classe
+    classe para testes de comportamento da aplicação
+    Junit5
+        permite realizar testes dentro da nossa aplicação
+        testes unitários
+    bibliotecas Junit5
+        assertEquals
+            dois argumentos tipo int
+                1-resultado
+                2-comparação
+     ctrl+w
+        faz a seleção do metodo
 
 
 
