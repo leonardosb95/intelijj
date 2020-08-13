@@ -22,14 +22,27 @@ public class LeitorCSV extends Leitor implements LeitorPagamento {
 
         Path caminho = Paths.get(arquivo);
 
-        List<String> linhas = Files.readAllLines(caminho, Charset.forName("utf-8"));
+        List<String> linhas = Files.readAllLines(caminho, Charset.forName("UTF-8"));
 
         linhas.forEach(linha -> {
             String[] palavras = linha.split(",");
             if (!linha.isEmpty()) {
-                Double valor = Double.valueOf(palavras[0]);
+                Double valor=0.00;
+                try {
+                 valor = Double.parseDouble(palavras[0]);
+
+                }catch (Exception e){
+                    valor = Double.parseDouble(palavras[0].substring(1,palavras[0].length()));
+                }
                 String descricao = palavras[1];
-                Tipo tipo = Tipo.valueOf(palavras[2]);
+                Tipo tipo=null;
+                try {
+                    tipo = Tipo.valueOf(palavras[2]);
+
+                }catch (Exception e){
+                    tipo = Tipo.valueOf(palavras[2].substring(0,palavras[2].length()-1));
+                }
+
                 Pagamento pagamento = new Pagamento(tipo, valor, descricao);
                 pagamentos.add(pagamento);
             }
